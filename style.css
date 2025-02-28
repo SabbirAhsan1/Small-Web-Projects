@@ -1,0 +1,147 @@
+
+.open-sans-primary{
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+/* nav styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 230px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a{
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.btn-primary{
+    color: white;
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    margin: 50px 230px;
+}
+
+.bg-image{
+    background-image: url(Images/developer.png), url(Images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.about{
+    padding: 130px 150px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+}
+
+.input-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.input-item{
+    justify-content: space-around;
+}
+
+.input-info{
+    font-weight: bold;
+}
+
+main section{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.skillsets{
+    display: flex;
+}
+
+.skill{
+    margin-right: 24px;
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.footer{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    padding: 130px 200px;
+    background-color: #FFF8F3;
+    gap: 100px;
+}
+
+.social-icons a{
+    margin-right: 24px;
+}
+
+.contact input[type="text"], input[type="email"],textarea{
+    display: block;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+    width: 100%;
+}
